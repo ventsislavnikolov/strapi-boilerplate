@@ -1,7 +1,7 @@
 {
   "name": "strapi",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A Strapi application",
   "author": {
@@ -23,7 +23,6 @@
     "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "prepare": "husky install",
     "lint-staged": "pnpx lint-staged",
     "commitlint": "npx --no -- commitlint --edit",
     "prettier": "prettier --check \"**/*.{js,jsx}\"",
