@@ -1,31 +1,69 @@
 {
   "name": "strapi",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "license": "MIT",
   "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
-  "devDependencies": {},
-  "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "pg": "8.8.0"
-  },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Ventsislav Nikolov"
+  },
+  "homepage": "https://github.com/ventsislavnikolov/strapi-boilerplate",
+  "bugs": {
+    "url": "https://github.com/ventsislavnikolov/strapi-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ventsislavnikolov/strapi-boilerplate.git"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
-  "engines": {
-    "node": ">=16.x.x",
-    "npm": ">=6.0.0"
+  "scripts": {
+    "strapi": "strapi",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "prepare": "husky install",
+    "lint-staged": "pnpx lint-staged",
+    "commitlint": "npx --no -- commitlint --edit",
+    "prettier": "prettier --check \"**/*.{js,jsx}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx}\"",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
-  "license": "MIT"
+  "engines": {
+    "node": ">=18.x.x",
+    "npm": ">=9.x.x"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-sentry": "^4.11.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/provider-upload-cloudinary": "4.11.2",
+    "@strapi/strapi": "4.11.2",
+    "@ventsislavnikolov/strapi-provider-email-sendinblue": "^4.0.1",
+    "pg": "8.11.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.0.3",
+    "@semantic-release/npm": "^10.0.4",
+    "@semantic-release/release-notes-generator": "^11.0.3",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "semantic-release": "^21.0.5",
+    "semantic-release-ado": "^1.4.0"
+  }
 }
