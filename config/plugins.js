@@ -22,7 +22,7 @@ module.exports = ({ env }) => ({
     enabled: true,
     config: {
       // Only set `dsn` property in production
-      dsn: env('NODE_ENV') === 'production' ? env('SENTRY_DSN') : null,
+      dsn: env('SENTRY_DSN'),
     },
   },
   email: {
