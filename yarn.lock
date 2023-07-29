@@ -2019,23 +2019,6 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
-"@strapi/helper-plugin@0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54":
-  version "0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54"
-  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54.tgz#00945423e316e6c22205986dc53f206679c90ad5"
-  integrity sha512-3TonuuqymWoF3ggK8r5kfrQeVkyVy/RkPn70L0I98Lc6vf9NupNP3bim90hM8nbn+qlwfe6AtF8w0w2BoE5A4w==
-  dependencies:
-    axios "1.4.0"
-    date-fns "2.30.0"
-    formik "2.4.0"
-    immer "9.0.19"
-    lodash "4.17.21"
-    prop-types "^15.8.1"
-    qs "6.11.1"
-    react-helmet "^6.1.0"
-    react-intl "6.4.1"
-    react-query "3.39.3"
-    react-select "5.7.0"
-
 "@strapi/helper-plugin@4.12.0":
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.12.0.tgz#3433afd0f81c131a55c219be05386d7595ccbffd"
@@ -2123,15 +2106,15 @@
     react-intl "6.4.1"
     yup "^0.32.9"
 
-"@strapi/plugin-i18n@0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54":
-  version "0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54.tgz#4a71f603161d37a90876a54ddbc6ef32756d4038"
-  integrity sha512-S7eeUVcVpCplUnEL6OctIBZ5B1yEE2P/RX+9QFraFy/Ve8L4L2c+4mDJzj9tJYQp8c1vrBP9kILIC17h/jUOiA==
+"@strapi/plugin-i18n@4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.12.0.tgz#cce77e96aca57c7057cb60c056bb05a8ccccadf3"
+  integrity sha512-Xxyo+l0X9Hq1VEwN/56+JoueEavhPgCrEKMtc3L3qDtHTxAAw1r4mTzdQoFzWIRE/IaND1HZ2psvCp/VX9NUjw==
   dependencies:
     "@strapi/design-system" "1.8.2"
-    "@strapi/helper-plugin" "0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54"
+    "@strapi/helper-plugin" "4.12.0"
     "@strapi/icons" "1.8.2"
-    "@strapi/utils" "0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54"
+    "@strapi/utils" "4.12.0"
     formik "2.4.0"
     immer "9.0.19"
     lodash "4.17.21"
@@ -2141,7 +2124,7 @@
     react-query "3.39.3"
     react-redux "8.1.1"
     redux "^4.2.1"
-    yup "0.32.9"
+    yup "^0.32.9"
 
 "@strapi/plugin-sentry@4.12.0":
   version "4.12.0"
@@ -2339,18 +2322,6 @@
     "@radix-ui/react-visually-hidden" "^1.0.3"
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.6"
-
-"@strapi/utils@0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54":
-  version "0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-0.0.0-next.5981e7e7c38a99b154e54aee2046c51d711b3a54.tgz#6159268f9a194246d57afc60b0e94ac5acab3cf6"
-  integrity sha512-iEndAIsgLlGWUD2ROzadwTx4MZYOt2ufc2VVUY37hD9pVVZ4AedkRk2NvZkGH/Cp0duD+eTEmwO/EidKf4N2sA==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.30.0"
-    http-errors "1.8.1"
-    lodash "4.17.21"
-    p-map "4.0.0"
-    yup "0.32.9"
 
 "@strapi/utils@4.12.0":
   version "4.12.0"
