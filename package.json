@@ -32,11 +32,11 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.12.5",
-    "@strapi/plugin-sentry": "4.12.5",
-    "@strapi/plugin-users-permissions": "4.12.5",
-    "@strapi/provider-upload-cloudinary": "4.12.5",
-    "@strapi/strapi": "4.12.5",
+    "@strapi/plugin-i18n": "4.12.7",
+    "@strapi/plugin-sentry": "4.12.7",
+    "@strapi/plugin-users-permissions": "4.12.7",
+    "@strapi/provider-upload-cloudinary": "4.12.7",
+    "@strapi/strapi": "4.12.7",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "^4.0.1",
     "pg": "8.11.2",
     "util": "^0.12.5"
