@@ -32,7 +32,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.17 || >=20.6.1"
   },
   "dependencies": {
     "@strapi/plugin-sentry": "4.14.0",
