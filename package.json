@@ -35,16 +35,16 @@
     "node": "18.18 || >=20.6.1"
   },
   "dependencies": {
-    "@strapi/plugin-sentry": "4.14.3",
-    "@strapi/plugin-users-permissions": "4.14.3",
-    "@strapi/provider-upload-cloudinary": "4.14.3",
-    "@strapi/strapi": "4.14.3",
+    "@strapi/plugin-sentry": "4.14.4",
+    "@strapi/plugin-users-permissions": "4.14.4",
+    "@strapi/provider-upload-cloudinary": "4.14.4",
+    "@strapi/strapi": "4.14.4",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.3",
-    "util": "^0.12.5"
+    "util": "0.12.5"
   },
   "devDependencies": {
-    "@babel/core": "7.23.0",
+    "@babel/core": "7.23.2",
     "@babel/eslint-parser": "7.22.15",
     "@commitlint/cli": "17.7.2",
     "@commitlint/config-conventional": "17.7.0",
@@ -57,7 +57,7 @@
     "eslint": "8.51.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-prettier": "5.0.1",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "prettier": "3.0.3",
