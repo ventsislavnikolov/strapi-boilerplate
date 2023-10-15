@@ -1,5 +1,5 @@
 {
-  "name": "strapi",
+  "name": "strapi-boilerplate",
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
@@ -46,8 +46,8 @@
   "devDependencies": {
     "@babel/core": "7.23.2",
     "@babel/eslint-parser": "7.22.15",
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.0.0",
     "@semantic-release/git": "10.0.1",
@@ -59,7 +59,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "5.0.1",
     "husky": "8.0.3",
-    "lint-staged": "14.0.1",
+    "lint-staged": "15.0.1",
     "prettier": "3.0.3",
     "semantic-release": "22.0.5",
     "semantic-release-ado": "1.4.0"
