@@ -35,10 +35,10 @@
     "node": "18.18 || >=20.6.1"
   },
   "dependencies": {
-    "@strapi/plugin-sentry": "4.14.4",
-    "@strapi/plugin-users-permissions": "4.14.4",
-    "@strapi/provider-upload-cloudinary": "4.14.4",
-    "@strapi/strapi": "4.14.4",
+    "@strapi/plugin-sentry": "4.14.5",
+    "@strapi/plugin-users-permissions": "4.14.5",
+    "@strapi/provider-upload-cloudinary": "4.14.5",
+    "@strapi/strapi": "4.14.5",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.3",
     "util": "0.12.5"
