@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@strapi/plugin-sentry": "4.15.5-alpha.4",
-    "@strapi/plugin-users-permissions": "4.15.5-alpha.4",
+    "@strapi/plugin-users-permissions": "4.15.5",
     "@strapi/provider-upload-cloudinary": "4.15.5-alpha.4",
     "@strapi/strapi": "4.15.5-alpha.4",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
