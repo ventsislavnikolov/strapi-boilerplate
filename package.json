@@ -65,7 +65,7 @@
     "husky": "8.0.3",
     "lint-staged": "15.0.2",
     "prettier": "3.0.3",
-    "semantic-release": "22.0.7",
+    "semantic-release": "22.0.12",
     "semantic-release-ado": "1.4.0"
   }
 }
