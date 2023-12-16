@@ -2393,6 +2393,22 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
+"@strapi/helper-plugin@4.15.5":
+  version "4.15.5"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.15.5.tgz#f9d218cb53a81e7a169fa1b23b7d961ad1638cdf"
+  integrity sha512-D7CNIpsiVvwXOuyUlvn7aOZu60Hebe+h4QAge1VEvsQSVlInhyzEbRbmeE247cEhdAyrlC9ga8KzQ2M1BLypvw==
+  dependencies:
+    axios "1.6.0"
+    date-fns "2.30.0"
+    formik "2.4.0"
+    immer "9.0.19"
+    lodash "4.17.21"
+    qs "6.11.1"
+    react-helmet "6.1.0"
+    react-intl "6.4.1"
+    react-query "3.39.3"
+    react-select "5.7.0"
+
 "@strapi/helper-plugin@4.15.5-alpha.4":
   version "4.15.5-alpha.4"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.15.5-alpha.4.tgz#3dc7cdb14594799ec788e451aab2111b3583cc01"
@@ -2508,14 +2524,14 @@
     react-query "3.39.3"
     yup "0.32.9"
 
-"@strapi/plugin-sentry@4.15.5-alpha.4":
-  version "4.15.5-alpha.4"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-sentry/-/plugin-sentry-4.15.5-alpha.4.tgz#5f4e73a7c5c91756e1c6d47fe21371d169cc4de8"
-  integrity sha512-OHK4fG7F47G18+p/A/VOP699WtknpGQ44wREW51tYZoZlbNOEfOBvIVTg9dzd8d7mHI79MeYaLsxdFbm1dd3Rw==
+"@strapi/plugin-sentry@4.15.5":
+  version "4.15.5"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-sentry/-/plugin-sentry-4.15.5.tgz#e50c98df47269f9dd1fde19ee1b3d710f72eb8cf"
+  integrity sha512-evNCdtXtGFd6TYsLEbzJ6VaVZpz9ieVJi4+9i2d4Rb5QRgPZ5lEqMgvYLnBgwMStH6BZDd1Z+x9OZRt29eduXw==
   dependencies:
     "@sentry/node" "6.19.7"
     "@strapi/design-system" "1.13.0"
-    "@strapi/helper-plugin" "4.15.5-alpha.4"
+    "@strapi/helper-plugin" "4.15.5"
     "@strapi/icons" "1.13.0"
 
 "@strapi/plugin-upload@4.15.5-alpha.4":
