@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.23.2",
-    "@babel/eslint-parser": "7.22.15",
+    "@babel/eslint-parser": "7.23.3",
     "@commitlint/cli": "18.2.0",
     "@commitlint/config-conventional": "18.1.0",
     "@semantic-release/changelog": "6.0.3",
