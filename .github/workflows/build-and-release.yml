@@ -2,9 +2,7 @@ name: Build and Release
 
 on:
  push:
-   branches: [ main, master ]
- pull_request:
-   branches: [ main, master ]
+   branches: [ main ]
 
 jobs:
   build:
@@ -15,12 +13,12 @@ jobs:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: echo "node_version=$(cat .github/nodejs.version)" >> $GITHUB_ENV
-      - name: "use node ${{ env.node_version }}"
-        uses: actions/setup-node@v3
+      - name: Use node 20.x
+        uses: actions/setup-node@v4
         with:
-          node-version: "${{ env.node_version }}"
+          node-version: '20.11.0'
 
       - name: Install dependencies
         run: yarn
@@ -39,14 +37,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '20.7.0'
+          node-version: '20.11.0'
 
       - name: Install dependencies
         run: npm pkg delete scripts.prepare && rm -rf .husky/.pre-push && yarn
@@ -55,4 +53,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release@21 --omit=dev --ignore-scripts
+        run: npx semantic-release@23 --omit=dev --ignore-scripts

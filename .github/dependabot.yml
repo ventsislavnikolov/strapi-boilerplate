@@ -5,14 +5,25 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "monthly"
-    open-pull-requests-limit: 50
+      interval: weekly
+    open-pull-requests-limit: 99
+    reviewers:
+      - ventsislavnikolov
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit:  20
+    versioning-strategy: increase
+    reviewers:
+      - ventsislavnikolov
     commit-message:
-      prefix: "chore"
-      include: "scope"
+      prefix: chore
+      include: scope
     ignore:
-     # ignore all GitHub linguist patch updates
-      - dependency-name: "husky"
+      - dependency-name: styled-components # ignore this package because it is managed by strapi versioning
+      - dependency-name: react-router-dom # ignore this package because it is managed by strapi versioning
