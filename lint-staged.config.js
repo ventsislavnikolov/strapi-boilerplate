@@ -1,4 +1,5 @@
 module.exports = {
-  '*.{js,jsx}': ['eslint --fix', 'prettier --write'],
-  '*.{css,scss,md}': ['prettier --write'],
+	"./src/**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}": ["pnpm lint", "pnpm prettier:write"],
+	"./config/**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}": ["pnpm lint", "pnpm prettier:write"],
+	"./extensions/**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}": ["pnpm lint", "pnpm prettier:write"],
 };
