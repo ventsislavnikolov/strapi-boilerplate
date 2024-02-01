@@ -17,7 +17,7 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit:  20
+    open-pull-requests-limit: 50
     versioning-strategy: increase
     reviewers:
       - ventsislavnikolov
@@ -25,5 +25,6 @@ updates:
       prefix: chore
       include: scope
     ignore:
+      - dependency-name: "react" # ignore this package because it is managed by strapi versioning
       - dependency-name: "styled-components" # ignore this package because it is managed by strapi versioning
       - dependency-name: "react-router-dom" # ignore this package because it is managed by strapi versioning
