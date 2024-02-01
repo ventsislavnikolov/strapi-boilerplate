@@ -25,5 +25,5 @@ updates:
       prefix: chore
       include: scope
     ignore:
-      - dependency-name: styled-components # ignore this package because it is managed by strapi versioning
-      - dependency-name: react-router-dom # ignore this package because it is managed by strapi versioning
+      - dependency-name: "styled-components" # ignore this package because it is managed by strapi versioning
+      - dependency-name: "react-router-dom" # ignore this package because it is managed by strapi versioning
