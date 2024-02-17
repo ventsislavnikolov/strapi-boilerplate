@@ -31,7 +31,7 @@
     "lint": "npx oxlint --import-plugin -D all -c ./eslintrc.json --deny-warnings"
   },
   "engines": {
-    "node": ">= 20.x.x"
+    "node": "20.11.1"
   },
   "dependencies": {
     "@strapi/plugin-sentry": "4.20.1",
