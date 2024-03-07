@@ -27,6 +27,8 @@
     "prettier": "prettier --check",
     "lint-staged": "pnpx lint-staged",
     "prettier:write": "prettier --write",
+    "env:push": "npx dotenv-vault@latest push",
+    "env:pull": "npx dotenv-vault@latest pull",
     "commitlint": "npx --no -- commitlint --edit",
     "lint": "npx oxlint --import-plugin -D all -c ./eslintrc.json --deny-warnings"
   },
@@ -34,10 +36,10 @@
     "node": "20.x"
   },
   "dependencies": {
-    "@strapi/plugin-sentry": "4.20.3",
-    "@strapi/plugin-users-permissions": "4.20.3",
-    "@strapi/provider-upload-cloudinary": "4.20.3",
-    "@strapi/strapi": "4.20.3",
+    "@strapi/plugin-sentry": "4.20.4",
+    "@strapi/plugin-users-permissions": "4.20.4",
+    "@strapi/provider-upload-cloudinary": "4.20.4",
+    "@strapi/strapi": "4.20.4",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.3",
     "react": "18.0.0",
@@ -53,11 +55,11 @@
     "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
-    "@semantic-release/npm": "11.0.2",
+    "@semantic-release/npm": "11.0.3",
     "@semantic-release/release-notes-generator": "12.1.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
-    "oxlint": "0.2.12",
+    "oxlint": "0.2.13",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
     "semantic-release-ado": "1.4.0"
