@@ -59,7 +59,7 @@
     "@semantic-release/release-notes-generator": "12.1.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
-    "oxlint": "0.2.13",
+    "oxlint": "0.2.15",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
     "semantic-release-ado": "1.4.0"
