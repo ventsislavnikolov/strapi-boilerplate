@@ -42,8 +42,8 @@
     "@strapi/strapi": "4.21.1",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3",
     "util": "0.12.5"
