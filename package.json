@@ -36,12 +36,12 @@
     "node": "20.x"
   },
   "dependencies": {
-    "@strapi/plugin-sentry": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.21.1",
-    "@strapi/provider-upload-cloudinary": "4.21.1",
-    "@strapi/strapi": "4.21.1",
+    "@strapi/plugin-sentry": "4.23.0",
+    "@strapi/plugin-users-permissions": "4.23.0",
+    "@strapi/provider-upload-cloudinary": "4.23.0",
+    "@strapi/strapi": "4.23.0",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
-    "pg": "8.11.4",
+    "pg": "8.11.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "5.3.4",
@@ -54,14 +54,14 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "12.0.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "10.0.2",
+    "@semantic-release/github": "10.0.3",
     "@semantic-release/npm": "12.0.0",
     "@semantic-release/release-notes-generator": "13.0.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
-    "oxlint": "0.2.15",
+    "oxlint": "0.2.17",
     "prettier": "3.2.5",
-    "semantic-release": "23.0.6",
+    "semantic-release": "23.0.8",
     "semantic-release-ado": "1.4.0"
   }
 }
