@@ -1,0 +1,46 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "es2021": true,
+    "browser": false,
+    "commonjs": true
+  },
+  "plugins": ["compat", "lodash", "unicorn", "unused-imports"],
+  "extends": [
+    "plugin:compat/recommended",
+    "plugin:lodash/recommended",
+    "plugin:unicorn/recommended",
+    "eslint:recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "babelrc": false,
+      "configFile": false,
+      "presets": ["@babel/preset-env"]
+    },
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": false,
+      "impliedStrict": true
+    },
+    "sourceType": "module"
+  },
+  "globals": {
+    "strapi": true
+  },
+  "rules": {
+    "no-undef": "off",
+    "no-console": "off",
+    "no-ternary": "off",
+    "import/named": "off",
+    "unicorn/no-null": "off",
+    "lodash/prefer-noop": "off",
+    "unicorn/filename-case": "off",
+    "unicorn/prefer-module": "off",
+    "unicorn/numeric-separators-style": "off",
+    "unicorn/no-anonymous-default-export": "off"
+  }
+}
