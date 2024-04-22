@@ -28,9 +28,6 @@
     },
     "sourceType": "module"
   },
-  "globals": {
-    "strapi": true
-  },
   "rules": {
     "no-undef": "off",
     "no-console": "off",
