@@ -3287,6 +3287,22 @@
     react-query "3.39.3"
     react-select "5.7.0"
 
+"@strapi/helper-plugin@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.24.0.tgz#c03d5d6fd257debc5e80a3bd431c7405167ef371"
+  integrity sha512-V4dH2Ra2w636tbuzDVM+6EcoVAeM7bhImKmUAWBMmBVZc1pjFIAH/ksnilTKcwNZnWctocmScpyNVbAtkdS7Wg==
+  dependencies:
+    axios "1.6.0"
+    date-fns "2.30.0"
+    formik "2.4.0"
+    immer "9.0.19"
+    lodash "4.17.21"
+    qs "6.11.1"
+    react-helmet "6.1.0"
+    react-intl "6.4.1"
+    react-query "3.39.3"
+    react-select "5.7.0"
+
 "@strapi/icons@1.18.0":
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-1.18.0.tgz#ef8e36155ad4dfce53e83b780ba5c64856d1e9a2"
@@ -3391,14 +3407,14 @@
     react-query "3.39.3"
     yup "0.32.9"
 
-"@strapi/plugin-sentry@4.23.1":
-  version "4.23.1"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-sentry/-/plugin-sentry-4.23.1.tgz#5d5e24a8368bf56452d97d4b794d6c4079875aaf"
-  integrity sha512-jQ8qCOAQzeup3COFP1oQdedWE5qQUmc3rIZEvpIxCelxdL8hynCcmx2FbIx32Jhp7PSK9WML6PyqZkpaRHiALw==
+"@strapi/plugin-sentry@4.24.0":
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-sentry/-/plugin-sentry-4.24.0.tgz#23dc443003e5fa880baea9ae866020fd1430e2f4"
+  integrity sha512-8zbrYM6nFykltPRaBsLWe6nufMTksMTSrrY8/kAlVq5tl6jXlRSUzxAMqlg1r14nNng0IQ2djHY1m8U3wCoSQg==
   dependencies:
     "@sentry/node" "6.19.7"
     "@strapi/design-system" "1.18.0"
-    "@strapi/helper-plugin" "4.23.1"
+    "@strapi/helper-plugin" "4.24.0"
     "@strapi/icons" "1.18.0"
 
 "@strapi/plugin-upload@4.23.1":

@@ -36,7 +36,7 @@
     "node": "20.x"
   },
   "dependencies": {
-    "@strapi/plugin-sentry": "4.23.1",
+    "@strapi/plugin-sentry": "4.24.0",
     "@strapi/plugin-users-permissions": "4.23.1",
     "@strapi/provider-upload-cloudinary": "4.23.1",
     "@strapi/strapi": "4.23.1",
