@@ -39,7 +39,7 @@
     "@strapi/plugin-sentry": "4.23.1",
     "@strapi/plugin-users-permissions": "4.23.1",
     "@strapi/provider-upload-cloudinary": "4.23.1",
-    "@strapi/strapi": "4.23.1",
+    "@strapi/strapi": "4.24.0",
     "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.5",
     "react": "18.2.0",
