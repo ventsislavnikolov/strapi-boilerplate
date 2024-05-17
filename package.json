@@ -33,8 +33,7 @@
     "lint": "npx oxlint --import-plugin -D all -A nursery -c ./.eslintrc.json --deny-warnings"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@strapi/plugin-sentry": "4.24.2",
