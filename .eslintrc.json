@@ -34,9 +34,11 @@
     "no-ternary": "off",
     "import/named": "off",
     "unicorn/no-null": "off",
+    "no-empty-function": "off",
     "lodash/prefer-noop": "off",
     "unicorn/filename-case": "off",
     "unicorn/prefer-module": "off",
+    "import/no-default-export": "off",
     "unicorn/numeric-separators-style": "off",
     "unicorn/no-anonymous-default-export": "off"
   }
