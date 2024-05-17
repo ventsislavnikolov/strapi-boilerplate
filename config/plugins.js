@@ -2,6 +2,9 @@ module.exports = ({ env }) => ({
   'users-permissions': {
     config: {
       jwtSecret: env('JWT_SECRET'),
+      jwt: {
+        expiresIn: '30d',
+      },
     },
   },
   upload: {
@@ -14,6 +17,7 @@ module.exports = ({ env }) => ({
       },
       actionOptions: {
         upload: {},
+        uploadStream: {},
         delete: {},
       },
     },
@@ -21,18 +25,19 @@ module.exports = ({ env }) => ({
   sentry: {
     enabled: true,
     config: {
-      // Only set `dsn` property in production
       dsn: env('NODE_ENV') === 'production' ? env('SENTRY_DSN') : undefined,
     },
   },
   email: {
     config: {
-      provider: '@ventsislavnikolov/strapi-provider-email-sendinblue',
+      provider: 'strapi-provider-email-brevo',
       providerOptions: {
-        sendinblue_api_key: env('SIB_API_KEY', 'key'),
-        sendinblue_default_replyto: env('SIB_DEFAULT_REPLY_TO', 'contact@boilerplate.com'),
-        sendinblue_default_from: env('SIB_DEFAULT_FROM', 'no-reply@boilerplate.com'),
-        sendinblue_default_from_name: env('SIB_DEFAULT_FROM_NAME', 'Boilerplate'),
+        apiKey: env('BREVO_API_KEY_PROVIDER'),
+      },
+      settings: {
+        defaultSenderName: 'Sender Name',
+        defaultSenderEmail: 'no-reply@example.com',
+        defaultReplyTo: 'no-reply@example.com',
       },
     },
   },

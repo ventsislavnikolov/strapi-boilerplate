@@ -41,11 +41,11 @@
     "@strapi/plugin-users-permissions": "4.24.2",
     "@strapi/provider-upload-cloudinary": "4.24.2",
     "@strapi/strapi": "4.24.2",
-    "@ventsislavnikolov/strapi-provider-email-sendinblue": "4.0.1",
     "pg": "8.11.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-provider-email-brevo": "1.0.4",
     "styled-components": "5.3.3",
     "util": "0.12.5"
   },
