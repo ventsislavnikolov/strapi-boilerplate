@@ -18,6 +18,9 @@
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
+  "engines": {
+    "node": "20.x.x"
+  },
   "scripts": {
     "strapi": "strapi",
     "prepare": "husky",
@@ -31,9 +34,6 @@
     "format:write": "prettier --write ./src/**/*",
     "commitlint": "npx --no -- commitlint --edit",
     "lint": "npx oxlint --import-plugin -D all -A nursery -c ./.eslintrc.json --deny-warnings"
-  },
-  "engines": {
-    "node": "20.x.x"
   },
   "dependencies": {
     "@strapi/plugin-sentry": "4.24.2",
