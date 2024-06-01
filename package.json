@@ -39,7 +39,7 @@
     "@strapi/plugin-sentry": "4.24.2",
     "@strapi/plugin-users-permissions": "4.24.2",
     "@strapi/provider-upload-cloudinary": "4.24.2",
-    "@strapi/strapi": "4.24.2",
+    "@strapi/strapi": "4.24.4",
     "pg": "8.11.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
