@@ -70,7 +70,7 @@
     "lint-staged": "15.2.2",
     "oxlint": "0.3.5",
     "prettier": "3.2.5",
-    "semantic-release": "23.1.1",
+    "semantic-release": "24.0.0",
     "semantic-release-ado": "1.4.0"
   }
 }
