@@ -30,10 +30,13 @@
   },
   "rules": {
     "no-undef": "off",
+    "sort-keys": "off",
     "no-console": "off",
     "no-ternary": "off",
+    "no-undefined": "off",
     "import/named": "off",
     "unicorn/no-null": "off",
+    "no-magic-numbers": "off",
     "no-empty-function": "off",
     "lodash/prefer-noop": "off",
     "unicorn/filename-case": "off",

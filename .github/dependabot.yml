@@ -17,7 +17,7 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    open-pull-requests-limit: 50
+    open-pull-requests-limit: 99
     versioning-strategy: increase
     reviewers:
       - ventsislavnikolov
