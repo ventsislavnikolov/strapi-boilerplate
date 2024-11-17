@@ -67,7 +67,7 @@
     "eslint-plugin-unused-imports": "4.1.4",
     "husky": "9.1.6",
     "lint-staged": "15.2.10",
-    "oxlint": "0.9.9",
+    "oxlint": "0.11.1",
     "prettier": "3.3.3",
     "semantic-release": "24.2.0",
     "semantic-release-ado": "1.4.0"
